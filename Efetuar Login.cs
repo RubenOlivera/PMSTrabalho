@@ -12,8 +12,12 @@ namespace SeniorNet_Events
 {
     public partial class FormEfetuarLogin : Form
     {
+        private WindowsFormsApplication2.Logica.ListarEventos logicaListarEventos;
+
+
         public FormEfetuarLogin()
         {
+            logicaListarEventos = WindowsFormsApplication2.Logica.ListarEventos.Instance;
             InitializeComponent();
         }
 

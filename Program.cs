@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SeniorNet_Events
 {
     static class Program
@@ -14,6 +15,7 @@ namespace SeniorNet_Events
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormEfetuarLogin());

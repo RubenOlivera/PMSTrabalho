@@ -70,6 +70,7 @@
     <Compile Include="InserirEventos.Designer.cs">
       <DependentUpon>InserirEventos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logica\ListarEventos.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
