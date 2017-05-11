@@ -1,0 +1,3 @@
+//ID[tab]Nome[tab]Data[tab]Localidade[tab]Preço[tab]
+1	Danças tradicionais	1-2-2018	Porto	10
+2	Teatro	Centro	5-7-2017	Coimbra	13,99 
