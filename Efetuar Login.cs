@@ -12,12 +12,12 @@ namespace SeniorNet_Events
 {
     public partial class FormEfetuarLogin : Form
     {
-        private WindowsFormsApplication2.Logica.ListarEventos logicaListarEventos;
+        private SeniorNet_Events.ListarEventos logicaListarEventos;
 
 
         public FormEfetuarLogin()
         {
-            logicaListarEventos = WindowsFormsApplication2.Logica.ListarEventos.Instance;
+            logicaListarEventos = SeniorNet_Events.ListarEventos.Instance;
             InitializeComponent();
         }
 
@@ -27,12 +27,7 @@ namespace SeniorNet_Events
             ev.ShowDialog();
         }
 
-        private void btrecuperarlogin_Click(object sender, EventArgs e)
-        {
-              RecuperarLogin log = new RecuperarLogin();
-        }
-
-        private void FormEfetuarLogin_Load(object sender, EventArgs e)
+          private void FormEfetuarLogin_Load(object sender, EventArgs e)
         {
 
         }

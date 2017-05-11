@@ -16,5 +16,17 @@ namespace SeniorNet_Events
         {
             InitializeComponent();
         }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }

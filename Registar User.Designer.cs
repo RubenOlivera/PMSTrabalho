@@ -28,145 +28,167 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtbConfirmarPass = new System.Windows.Forms.TextBox();
+            this.txtbPass = new System.Windows.Forms.TextBox();
+            this.txtbNome = new System.Windows.Forms.TextBox();
+            this.btnRegistar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtbEmail = new System.Windows.Forms.TextBox();
+            this.txtbTelemovel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox3
+            // txtbConfirmarPass
             // 
-            this.textBox3.Location = new System.Drawing.Point(266, 160);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(322, 26);
-            this.textBox3.TabIndex = 15;
+            this.txtbConfirmarPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbConfirmarPass.Location = new System.Drawing.Point(325, 176);
+            this.txtbConfirmarPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtbConfirmarPass.Name = "txtbConfirmarPass";
+            this.txtbConfirmarPass.Size = new System.Drawing.Size(393, 28);
+            this.txtbConfirmarPass.TabIndex = 15;
             // 
-            // textBox2
+            // txtbPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(266, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(322, 26);
-            this.textBox2.TabIndex = 14;
+            this.txtbPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbPass.Location = new System.Drawing.Point(325, 110);
+            this.txtbPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtbPass.Name = "txtbPass";
+            this.txtbPass.Size = new System.Drawing.Size(393, 28);
+            this.txtbPass.TabIndex = 14;
             // 
-            // textBox1
+            // txtbNome
             // 
-            this.textBox1.Location = new System.Drawing.Point(266, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(322, 26);
-            this.textBox1.TabIndex = 13;
+            this.txtbNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbNome.Location = new System.Drawing.Point(325, 42);
+            this.txtbNome.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtbNome.Name = "txtbNome";
+            this.txtbNome.Size = new System.Drawing.Size(393, 28);
+            this.txtbNome.TabIndex = 13;
             // 
-            // button2
+            // btnRegistar
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(369, 386);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 45);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Registar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnRegistar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistar.Location = new System.Drawing.Point(504, 425);
+            this.btnRegistar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnRegistar.Name = "btnRegistar";
+            this.btnRegistar.Size = new System.Drawing.Size(215, 50);
+            this.btnRegistar.TabIndex = 12;
+            this.btnRegistar.Text = "Registar";
+            this.btnRegistar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnCancelar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(28, 386);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 45);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(35, 425);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(151, 50);
+            this.btnCancelar.TabIndex = 11;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(64, 160);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(78, 176);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 22);
+            this.label3.Size = new System.Drawing.Size(190, 22);
             this.label3.TabIndex = 10;
             this.label3.Text = "Confirmar Password";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(64, 101);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(78, 111);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 22);
+            this.label2.Size = new System.Drawing.Size(97, 22);
             this.label2.TabIndex = 9;
             this.label2.Text = "Password";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 42);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(78, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 22);
+            this.label1.Size = new System.Drawing.Size(61, 22);
             this.label1.TabIndex = 8;
             this.label1.Text = "Nome";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(67, 220);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(82, 242);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 22);
+            this.label4.Size = new System.Drawing.Size(59, 22);
             this.label4.TabIndex = 16;
             this.label4.Text = "Email";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(64, 275);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(78, 303);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 22);
+            this.label5.Size = new System.Drawing.Size(102, 22);
             this.label5.TabIndex = 17;
             this.label5.Text = "Telemóvel";
             // 
-            // textBox4
+            // txtbEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(266, 220);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(322, 26);
-            this.textBox4.TabIndex = 18;
+            this.txtbEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbEmail.Location = new System.Drawing.Point(325, 242);
+            this.txtbEmail.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtbEmail.Name = "txtbEmail";
+            this.txtbEmail.Size = new System.Drawing.Size(393, 28);
+            this.txtbEmail.TabIndex = 18;
             // 
-            // textBox5
+            // txtbTelemovel
             // 
-            this.textBox5.Location = new System.Drawing.Point(266, 271);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(322, 26);
-            this.textBox5.TabIndex = 19;
+            this.txtbTelemovel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbTelemovel.Location = new System.Drawing.Point(325, 298);
+            this.txtbTelemovel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txtbTelemovel.Name = "txtbTelemovel";
+            this.txtbTelemovel.Size = new System.Drawing.Size(393, 28);
+            this.txtbTelemovel.TabIndex = 19;
             // 
             // Registar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(616, 456);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(753, 502);
+            this.Controls.Add(this.txtbTelemovel);
+            this.Controls.Add(this.txtbEmail);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtbConfirmarPass);
+            this.Controls.Add(this.txtbPass);
+            this.Controls.Add(this.txtbNome);
+            this.Controls.Add(this.btnRegistar);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Registar";
             this.ShowIcon = false;
-            this.Text = "Registar User";
+            this.Text = "NOVO USER";
             this.Load += new System.EventHandler(this.Registar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,17 +197,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtbConfirmarPass;
+        private System.Windows.Forms.TextBox txtbPass;
+        private System.Windows.Forms.TextBox txtbNome;
+        private System.Windows.Forms.Button btnRegistar;
+        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtbEmail;
+        private System.Windows.Forms.TextBox txtbTelemovel;
     }
 }

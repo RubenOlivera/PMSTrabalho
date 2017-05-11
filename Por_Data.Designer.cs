@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace SeniorNet_Events
 {
     partial class Por_Data
     {

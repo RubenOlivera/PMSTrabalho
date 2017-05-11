@@ -8,6 +8,14 @@ namespace SeniorNet_Events
 {
     class Classes
     {
+        public class Evento
+        {
+            private string titulo;
+            public string Titulo { get { return titulo; } set { titulo = value; } }
+
+            private string artistaPrincipal;
+            public string ArtistaPrincipal { get { return artistaPrincipal; } set { artistaPrincipal = value; } }
+        }
         public class User
         {
             private string email;

@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace SeniorNet_Events
 {
     partial class _Tipos_de_eventos
     {
