@@ -54,44 +54,44 @@
             this.cbLocal.FormattingEnabled = true;
             this.cbLocal.Location = new System.Drawing.Point(428, 230);
             this.cbLocal.Name = "cbLocal";
-            this.cbLocal.Size = new System.Drawing.Size(134, 30);
+            this.cbLocal.Size = new System.Drawing.Size(134, 23);
             this.cbLocal.TabIndex = 37;
             // 
             // txtbtitulo
             // 
             this.txtbtitulo.Location = new System.Drawing.Point(228, 20);
             this.txtbtitulo.Name = "txtbtitulo";
-            this.txtbtitulo.Size = new System.Drawing.Size(334, 28);
+            this.txtbtitulo.Size = new System.Drawing.Size(334, 21);
             this.txtbtitulo.TabIndex = 36;
             // 
             // lbDescricao
             // 
             this.lbDescricao.FormattingEnabled = true;
-            this.lbDescricao.ItemHeight = 22;
+            this.lbDescricao.ItemHeight = 15;
             this.lbDescricao.Location = new System.Drawing.Point(228, 279);
             this.lbDescricao.Name = "lbDescricao";
-            this.lbDescricao.Size = new System.Drawing.Size(334, 70);
+            this.lbDescricao.Size = new System.Drawing.Size(334, 64);
             this.lbDescricao.TabIndex = 35;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(228, 232);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(135, 28);
+            this.textBox3.Size = new System.Drawing.Size(135, 21);
             this.textBox3.TabIndex = 34;
             // 
             // tbPreco
             // 
             this.tbPreco.Location = new System.Drawing.Point(228, 438);
             this.tbPreco.Name = "tbPreco";
-            this.tbPreco.Size = new System.Drawing.Size(334, 28);
+            this.tbPreco.Size = new System.Drawing.Size(334, 21);
             this.tbPreco.TabIndex = 33;
             // 
             // tbArtistaPrincipal
             // 
             this.tbArtistaPrincipal.Location = new System.Drawing.Point(228, 384);
             this.tbArtistaPrincipal.Name = "tbArtistaPrincipal";
-            this.tbArtistaPrincipal.Size = new System.Drawing.Size(336, 28);
+            this.tbArtistaPrincipal.Size = new System.Drawing.Size(336, 21);
             this.tbArtistaPrincipal.TabIndex = 32;
             // 
             // btnAlterar
@@ -121,7 +121,7 @@
             this.lbPreco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPreco.Location = new System.Drawing.Point(34, 438);
             this.lbPreco.Name = "lbPreco";
-            this.lbPreco.Size = new System.Drawing.Size(57, 22);
+            this.lbPreco.Size = new System.Drawing.Size(39, 15);
             this.lbPreco.TabIndex = 29;
             this.lbPreco.Text = "Preço";
             // 
@@ -131,7 +131,7 @@
             this.lblArtistaPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblArtistaPrincipal.Location = new System.Drawing.Point(34, 384);
             this.lblArtistaPrincipal.Name = "lblArtistaPrincipal";
-            this.lblArtistaPrincipal.Size = new System.Drawing.Size(135, 22);
+            this.lblArtistaPrincipal.Size = new System.Drawing.Size(91, 15);
             this.lblArtistaPrincipal.TabIndex = 28;
             this.lblArtistaPrincipal.Text = "Artista Principal";
             // 
@@ -141,7 +141,7 @@
             this.lbDescrição.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbDescrição.Location = new System.Drawing.Point(34, 309);
             this.lbDescrição.Name = "lbDescrição";
-            this.lbDescrição.Size = new System.Drawing.Size(90, 22);
+            this.lbDescrição.Size = new System.Drawing.Size(62, 15);
             this.lbDescrição.TabIndex = 27;
             this.lbDescrição.Text = "Descrição";
             // 
@@ -151,7 +151,7 @@
             this.lblocal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblocal.Location = new System.Drawing.Point(38, 238);
             this.lblocal.Name = "lblocal";
-            this.lblocal.Size = new System.Drawing.Size(53, 22);
+            this.lblocal.Size = new System.Drawing.Size(37, 15);
             this.lblocal.TabIndex = 26;
             this.lblocal.Text = "Local";
             // 
@@ -160,7 +160,7 @@
             this.mtbhorainicio.Location = new System.Drawing.Point(228, 70);
             this.mtbhorainicio.Mask = "00:00";
             this.mtbhorainicio.Name = "mtbhorainicio";
-            this.mtbhorainicio.Size = new System.Drawing.Size(111, 28);
+            this.mtbhorainicio.Size = new System.Drawing.Size(111, 21);
             this.mtbhorainicio.TabIndex = 25;
             this.mtbhorainicio.ValidatingType = typeof(System.DateTime);
             // 
@@ -169,7 +169,7 @@
             this.mtbhorafim.Location = new System.Drawing.Point(228, 126);
             this.mtbhorafim.Mask = "00:00";
             this.mtbhorafim.Name = "mtbhorafim";
-            this.mtbhorafim.Size = new System.Drawing.Size(111, 28);
+            this.mtbhorafim.Size = new System.Drawing.Size(111, 21);
             this.mtbhorafim.TabIndex = 24;
             this.mtbhorafim.ValidatingType = typeof(System.DateTime);
             // 
@@ -179,7 +179,7 @@
             this.lblData.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblData.Location = new System.Drawing.Point(43, 182);
             this.lblData.Name = "lblData";
-            this.lblData.Size = new System.Drawing.Size(48, 22);
+            this.lblData.Size = new System.Drawing.Size(33, 15);
             this.lblData.TabIndex = 23;
             this.lblData.Text = "Data";
             // 
@@ -188,7 +188,7 @@
             this.mtbData.Location = new System.Drawing.Point(228, 176);
             this.mtbData.Mask = "00/00/0000";
             this.mtbData.Name = "mtbData";
-            this.mtbData.Size = new System.Drawing.Size(111, 28);
+            this.mtbData.Size = new System.Drawing.Size(111, 21);
             this.mtbData.TabIndex = 22;
             this.mtbData.ValidatingType = typeof(System.DateTime);
             // 
@@ -198,7 +198,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(43, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 22);
+            this.label3.Size = new System.Drawing.Size(75, 15);
             this.label3.TabIndex = 21;
             this.label3.Text = "Hora de Fim";
             // 
@@ -208,7 +208,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(43, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 22);
+            this.label2.Size = new System.Drawing.Size(83, 15);
             this.label2.TabIndex = 20;
             this.label2.Text = "Hora de Inicio";
             // 
@@ -218,13 +218,13 @@
             this.lbltitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.Location = new System.Drawing.Point(43, 23);
             this.lbltitulo.Name = "lbltitulo";
-            this.lbltitulo.Size = new System.Drawing.Size(55, 22);
+            this.lbltitulo.Size = new System.Drawing.Size(37, 15);
             this.lbltitulo.TabIndex = 19;
             this.lbltitulo.Text = "Titulo";
             // 
             // AlterarEvento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(622, 587);
             this.Controls.Add(this.cbLocal);
@@ -250,6 +250,7 @@
             this.Name = "AlterarEvento";
             this.ShowIcon = false;
             this.Text = "ALTERAR EVENTO";
+            this.Load += new System.EventHandler(this.AlterarEvento_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

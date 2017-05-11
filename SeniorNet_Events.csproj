@@ -58,6 +58,7 @@
     <Compile Include="Efetuar Login.Designer.cs">
       <DependentUpon>Efetuar Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ficheiros\Ficheiros.cs" />
     <Compile Include="InformaçaoEventos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,7 +71,10 @@
     <Compile Include="InserirEventos.Designer.cs">
       <DependentUpon>InserirEventos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logica\FIcheiro_Utilzadores.cs" />
     <Compile Include="Logica\ListarEventos.cs" />
+    <Compile Include="Modelos\Eventos.cs" />
+    <Compile Include="Modelos\Utilizador.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

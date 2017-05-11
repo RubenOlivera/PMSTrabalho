@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,5 +21,6 @@ namespace SeniorNet_Events
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormEfetuarLogin());
         }
+        //StreamReader sr = new StreamReader("C:\\Users\\Ruben\\PMSTrabalho");
     }
 }

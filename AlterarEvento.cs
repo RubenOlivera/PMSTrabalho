@@ -27,6 +27,9 @@ namespace SeniorNet_Events
 
         }
 
-      
+        private void AlterarEvento_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

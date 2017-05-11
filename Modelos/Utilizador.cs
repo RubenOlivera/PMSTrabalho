@@ -8,5 +8,9 @@ namespace WindowsFormsApplication2.Modelos
 {
     class Utilizador
     {
+        public string nome { get; set; }
+        public string password { get; set; }
+        public string email { get; set; }
+
     }
 }
