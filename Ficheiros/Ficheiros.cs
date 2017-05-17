@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeniorNet_Events.Ficheiros
+namespace WindowsFormsApplication2.Ficheiros
 {
     class Ficheiros
     {
-   
+
     }
 }
