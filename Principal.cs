@@ -19,14 +19,51 @@ namespace SeniorNet_Events
 
         private void buttonLog_Click(object sender, EventArgs e)
         {
+            
             FormEfetuarLogin ev = new FormEfetuarLogin();
-            this.Close();
-            ev.Show();   
+            ev.ShowDialog();
+              
         }
 
         private void Principal_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonRegistar_Click(object sender, EventArgs e)
+        {
+            Registar gh = new Registar();
+            gh.Show();
+            
+        }
+
+        private void buttonTipEvent_Click(object sender, EventArgs e)
+        {
+            
+            _Tipos_de_eventos te = new _Tipos_de_eventos();
+            te.Show();
+            
+        }
+
+        private void buttonLoc_Click(object sender, EventArgs e)
+        {
+            Regioes rg = new Regioes();
+            rg.Show();
+            
+        }
+
+        private void buttonData_Click(object sender, EventArgs e)
+        {
+            Por_cidades pc = new Por_cidades();
+            pc.Show();
+           
+
+        }
+
+        private void buttonTodos_Click(object sender, EventArgs e)
+        {
+            Todos t = new Todos();
+            t.Show();
         }
     }
 }

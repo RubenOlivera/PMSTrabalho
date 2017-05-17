@@ -59,6 +59,7 @@
             this.buttonRegistar.TabIndex = 1;
             this.buttonRegistar.Text = "Registar User";
             this.buttonRegistar.UseVisualStyleBackColor = true;
+            this.buttonRegistar.Click += new System.EventHandler(this.buttonRegistar_Click);
             // 
             // buttonTipEvent
             // 
@@ -70,6 +71,7 @@
             this.buttonTipEvent.TabIndex = 2;
             this.buttonTipEvent.Text = "Tipos de Eventos";
             this.buttonTipEvent.UseVisualStyleBackColor = true;
+            this.buttonTipEvent.Click += new System.EventHandler(this.buttonTipEvent_Click);
             // 
             // buttonLoc
             // 
@@ -81,6 +83,7 @@
             this.buttonLoc.TabIndex = 3;
             this.buttonLoc.Text = "Regiões";
             this.buttonLoc.UseVisualStyleBackColor = true;
+            this.buttonLoc.Click += new System.EventHandler(this.buttonLoc_Click);
             // 
             // buttonData
             // 
@@ -92,6 +95,7 @@
             this.buttonData.TabIndex = 4;
             this.buttonData.Text = "Data";
             this.buttonData.UseVisualStyleBackColor = true;
+            this.buttonData.Click += new System.EventHandler(this.buttonData_Click);
             // 
             // buttonTodos
             // 
@@ -103,6 +107,7 @@
             this.buttonTodos.TabIndex = 5;
             this.buttonTodos.Text = "Todos os eventos";
             this.buttonTodos.UseVisualStyleBackColor = true;
+            this.buttonTodos.Click += new System.EventHandler(this.buttonTodos_Click);
             // 
             // listBox1
             // 
