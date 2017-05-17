@@ -29,14 +29,14 @@ namespace SeniorNet_Events
 
           private void btcancelar_Click(object sender, EventArgs e)
         {
-           // this.Close();
+            this.Close();
             Principal ev = new Principal();
             ev.ShowDialog();
         }
 
           private void btnLogin_Click(object sender, EventArgs e)
           {
-
+             
           }
     }
 }
