@@ -185,7 +185,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(241, 437);
+            this.textBox2.Location = new System.Drawing.Point(239, 425);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(245, 26);
             this.textBox2.TabIndex = 14;
@@ -253,7 +253,8 @@
             this.Controls.Add(this.label1);
             this.Name = "InserirEventos";
             this.ShowIcon = false;
-            this.Text = "Inserir Eventos";
+            this.Text = "INSERIR EVENTOS";
+            this.Load += new System.EventHandler(this.InserirEventos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,13 @@ namespace SeniorNet_Events
         {
             InitializeComponent();
         }
+
+        private void buttonLog_Click(object sender, EventArgs e)
+        {
+            FormEfetuarLogin ev = new FormEfetuarLogin();//this.Hide();
+            ev.Show();
+
+            
+        }
     }
 }

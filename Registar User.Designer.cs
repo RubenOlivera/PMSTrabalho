@@ -79,6 +79,7 @@
             this.btnRegistar.TabIndex = 12;
             this.btnRegistar.Text = "Registar";
             this.btnRegistar.UseVisualStyleBackColor = true;
+            this.btnRegistar.Click += new System.EventHandler(this.btnRegistar_Click);
             // 
             // btnCancelar
             // 

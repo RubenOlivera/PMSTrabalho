@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApplication2.Logica
+namespace SeniorNet_Events.Logica
 {
     class FIcheiro_Utilzadores
     {

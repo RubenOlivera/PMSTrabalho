@@ -21,20 +21,22 @@ namespace SeniorNet_Events
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            InserirEventos ev = new InserirEventos();
-            ev.ShowDialog();
-        }
 
           private void FormEfetuarLogin_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+          private void btcancelar_Click(object sender, EventArgs e)
         {
-            this.Close();
+           // this.Close();
+            Principal ev = new Principal();
+            ev.ShowDialog();
         }
+
+          private void btnLogin_Click(object sender, EventArgs e)
+          {
+
+          }
     }
 }

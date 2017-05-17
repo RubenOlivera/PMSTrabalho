@@ -16,5 +16,11 @@ namespace SeniorNet_Events
         {
             InitializeComponent();
         }
+
+        private void buttonNovoEvent_Click(object sender, EventArgs e)
+        {
+            InserirEventos ev = new InserirEventos();
+            ev.ShowDialog();
+        }
     }
 }

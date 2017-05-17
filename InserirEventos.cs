@@ -21,5 +21,10 @@ namespace SeniorNet_Events
         {
 
         }
+
+        private void InserirEventos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

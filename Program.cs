@@ -19,7 +19,7 @@ namespace SeniorNet_Events
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormEfetuarLogin());
+            Application.Run(new Principal());
         }
         //StreamReader sr = new StreamReader("C:\\Users\\Ruben\\PMSTrabalho");
     }

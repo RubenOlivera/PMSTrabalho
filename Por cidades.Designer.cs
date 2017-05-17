@@ -32,8 +32,8 @@
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Data = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.buttonV = new System.Windows.Forms.Button();
             this.Preço = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonV = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,9 +45,10 @@
             this.Cidade,
             this.Data,
             this.Preço});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 51);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 78);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(445, 203);
+            this.dataGridView1.Size = new System.Drawing.Size(668, 312);
             this.dataGridView1.TabIndex = 0;
             // 
             // Nome
@@ -65,29 +66,34 @@
             this.Data.HeaderText = "Data";
             this.Data.Name = "Data";
             // 
-            // buttonV
-            // 
-            this.buttonV.Location = new System.Drawing.Point(13, 261);
-            this.buttonV.Name = "buttonV";
-            this.buttonV.Size = new System.Drawing.Size(75, 23);
-            this.buttonV.TabIndex = 1;
-            this.buttonV.Text = "Voltar";
-            this.buttonV.UseVisualStyleBackColor = true;
-            // 
             // Preço
             // 
             this.Preço.HeaderText = "Preço";
             this.Preço.Name = "Preço";
             // 
+            // buttonV
+            // 
+            this.buttonV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonV.Location = new System.Drawing.Point(639, 421);
+            this.buttonV.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonV.Name = "buttonV";
+            this.buttonV.Size = new System.Drawing.Size(118, 50);
+            this.buttonV.TabIndex = 1;
+            this.buttonV.Text = "Voltar";
+            this.buttonV.UseVisualStyleBackColor = true;
+            // 
             // Por_cidades
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 315);
+            this.ClientSize = new System.Drawing.Size(770, 485);
             this.Controls.Add(this.buttonV);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimizeBox = false;
             this.Name = "Por_cidades";
-            this.Text = "Por_cidades";
+            this.ShowIcon = false;
+            this.Text = "LOCALIDADES";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
