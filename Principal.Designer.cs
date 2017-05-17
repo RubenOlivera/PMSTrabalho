@@ -108,16 +108,16 @@
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 22;
+            this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(375, 150);
             this.listBox1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(363, 290);
+            this.listBox1.Size = new System.Drawing.Size(363, 289);
             this.listBox1.TabIndex = 6;
             // 
             // Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(755, 535);
             this.Controls.Add(this.listBox1);
@@ -134,6 +134,7 @@
             this.Name = "Principal";
             this.ShowIcon = false;
             this.Text = "GESTÃO EVENTOS";
+            this.Load += new System.EventHandler(this.Principal_Load);
             this.ResumeLayout(false);
 
         }

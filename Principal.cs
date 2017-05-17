@@ -19,10 +19,14 @@ namespace SeniorNet_Events
 
         private void buttonLog_Click(object sender, EventArgs e)
         {
-            FormEfetuarLogin ev = new FormEfetuarLogin();//this.Hide();
-            ev.Show();
+            FormEfetuarLogin ev = new FormEfetuarLogin();
+            this.Close();
+            ev.Show();   
+        }
 
-            
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
