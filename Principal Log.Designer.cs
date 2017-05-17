@@ -38,9 +38,13 @@
             // 
             // buttonlogout
             // 
+            this.buttonlogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonlogout.Location = new System.Drawing.Point(558, 27);
+            this.buttonlogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonlogout.Name = "buttonlogout";
             this.buttonlogout.Location = new System.Drawing.Point(241, 21);
             this.buttonlogout.Name = "buttonlogout";
-            this.buttonlogout.Size = new System.Drawing.Size(75, 23);
+            this.buttonlogout.Size = new System.Drawing.Size(131, 50);
             this.buttonlogout.TabIndex = 0;
             this.buttonlogout.Text = "LogOut";
             this.buttonlogout.UseVisualStyleBackColor = true;
@@ -48,9 +52,12 @@
             // 
             // buttonNovoEvent
             // 
+            this.buttonNovoEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNovoEvent.Location = new System.Drawing.Point(49, 69);
+            this.buttonNovoEvent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonNovoEvent.Location = new System.Drawing.Point(32, 77);
             this.buttonNovoEvent.Name = "buttonNovoEvent";
-            this.buttonNovoEvent.Size = new System.Drawing.Size(104, 37);
+            this.buttonNovoEvent.Size = new System.Drawing.Size(156, 75);
             this.buttonNovoEvent.TabIndex = 1;
             this.buttonNovoEvent.Text = "Novo evento";
             this.buttonNovoEvent.UseVisualStyleBackColor = true;
@@ -76,16 +83,26 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(62, 234);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Location = new System.Drawing.Point(42, 147);
             this.listBox1.Name = "listBox1";
+<<<<<<< .mine
             this.listBox1.Size = new System.Drawing.Size(200, 95);
+=======
+            this.listBox1.Size = new System.Drawing.Size(641, 124);
+>>>>>>> .theirs
             this.listBox1.TabIndex = 4;
             // 
             // ButtumAlterar
             // 
+            this.ButtumAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButtumAlterar.Location = new System.Drawing.Point(581, 386);
+            this.ButtumAlterar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ButtumAlterar.Location = new System.Drawing.Point(241, 248);
             this.ButtumAlterar.Name = "ButtumAlterar";
-            this.ButtumAlterar.Size = new System.Drawing.Size(75, 23);
+            this.ButtumAlterar.Size = new System.Drawing.Size(143, 59);
             this.ButtumAlterar.TabIndex = 5;
             this.ButtumAlterar.Text = "Alterar";
             this.ButtumAlterar.UseVisualStyleBackColor = true;
@@ -95,14 +112,20 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< .mine
             this.ClientSize = new System.Drawing.Size(328, 283);
+=======
+            this.ClientSize = new System.Drawing.Size(737, 488);
+>>>>>>> .theirs
             this.Controls.Add(this.ButtumAlterar);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBoxAltEvent);
             this.Controls.Add(this.labelalt);
             this.Controls.Add(this.buttonNovoEvent);
             this.Controls.Add(this.buttonlogout);
+            this.MinimizeBox = false;
             this.Name = "Principal_Log";
+            this.ShowIcon = false;
             this.Text = "GESTÃO EVENTOS";
             this.ResumeLayout(false);
             this.PerformLayout();
