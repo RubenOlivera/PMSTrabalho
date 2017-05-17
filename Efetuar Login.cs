@@ -36,7 +36,9 @@ namespace SeniorNet_Events
 
           private void btnLogin_Click(object sender, EventArgs e)
           {
-
+             
+              Principal_Log ev = new Principal_Log();
+              ev.ShowDialog();
           }
     }
 }

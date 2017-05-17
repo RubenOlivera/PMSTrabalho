@@ -26,5 +26,11 @@ namespace SeniorNet_Events
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Principal ev = new Principal();
+            ev.ShowDialog();
+        }
     }
 }
