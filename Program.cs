@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SeniorNet_Events.Dados_;
 using System.Windows.Forms;
 
 
@@ -16,7 +17,9 @@ namespace SeniorNet_Events
         [STAThread]
         static void Main()
         {
-
+            Dados a = Dados.Instance;
+            a.Carregar();
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Principal());

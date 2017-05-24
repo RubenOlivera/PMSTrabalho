@@ -124,6 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.images;
             this.ClientSize = new System.Drawing.Size(755, 535);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.buttonTodos);
