@@ -1,3 +1,0 @@
-// ID[tab]Nome[tab]Região[tab]Localidade[tab]	
-1	Danças tradicionais	Norte	Porto	
-2	Teatro	Centro	Coimbra 
