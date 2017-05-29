@@ -29,5 +29,10 @@ namespace SeniorNet_Events
         {
 
         }
+
+        private void buttonRegistar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

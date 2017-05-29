@@ -8,12 +8,12 @@ namespace SeniorNet_Events.Modelos
 {
     class Eventos
     {
-        public string Titulo { get; set; }
-        public string localidade { get; set; }
-        public string regiao { get; set; }
-        public DateTime Data { get; set; }
-        public double Preço { get; set; }
-        public string Artista { get; set; }
+        public string titulo { get; set; }
+        public string localidade { get; set; } //vai ser criada uma lista de strings para as localidades
+        public string regiao { get; set; } //vai ser criada lista de strings para as regiões
+        public DateTime data { get; set; }
+        public double preco { get; set; }
+        public string artista { get; set; }
         public DateTime horaInicio { get; set; }
         public DateTime horaFinal { get; set; }
     }
