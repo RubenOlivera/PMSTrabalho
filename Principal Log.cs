@@ -22,5 +22,16 @@ namespace SeniorNet_Events
             InserirEventos ev = new InserirEventos();
             ev.ShowDialog();
         }
+
+        private void ButtumAlterar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonlogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

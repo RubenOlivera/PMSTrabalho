@@ -39,18 +39,19 @@
             // buttonlogout
             // 
             this.buttonlogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonlogout.Location = new System.Drawing.Point(558, 27);
+            this.buttonlogout.Location = new System.Drawing.Point(241, 21);
             this.buttonlogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonlogout.Name = "buttonlogout";
             this.buttonlogout.Size = new System.Drawing.Size(131, 50);
             this.buttonlogout.TabIndex = 0;
             this.buttonlogout.Text = "LogOut";
             this.buttonlogout.UseVisualStyleBackColor = true;
+            this.buttonlogout.Click += new System.EventHandler(this.buttonlogout_Click);
             // 
             // buttonNovoEvent
             // 
             this.buttonNovoEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNovoEvent.Location = new System.Drawing.Point(49, 69);
+            this.buttonNovoEvent.Location = new System.Drawing.Point(67, 176);
             this.buttonNovoEvent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonNovoEvent.Name = "buttonNovoEvent";
             this.buttonNovoEvent.Size = new System.Drawing.Size(156, 75);
@@ -62,46 +63,44 @@
             // labelalt
             // 
             this.labelalt.AutoSize = true;
-            this.labelalt.Location = new System.Drawing.Point(58, 189);
-            this.labelalt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelalt.Location = new System.Drawing.Point(64, 158);
             this.labelalt.Name = "labelalt";
-            this.labelalt.Size = new System.Drawing.Size(112, 20);
+            this.labelalt.Size = new System.Drawing.Size(76, 13);
             this.labelalt.TabIndex = 2;
             this.labelalt.Text = "Alterar evento:";
             // 
             // comboBoxAltEvent
             // 
             this.comboBoxAltEvent.FormattingEnabled = true;
-            this.comboBoxAltEvent.Location = new System.Drawing.Point(182, 185);
-            this.comboBoxAltEvent.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBoxAltEvent.Location = new System.Drawing.Point(230, 230);
             this.comboBoxAltEvent.Name = "comboBoxAltEvent";
-            this.comboBoxAltEvent.Size = new System.Drawing.Size(180, 28);
+            this.comboBoxAltEvent.Size = new System.Drawing.Size(121, 21);
             this.comboBoxAltEvent.TabIndex = 3;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(62, 234);
+            this.listBox1.Location = new System.Drawing.Point(67, 261);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(641, 124);
+            this.listBox1.Size = new System.Drawing.Size(641, 121);
             this.listBox1.TabIndex = 4;
             // 
             // ButtumAlterar
             // 
             this.ButtumAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtumAlterar.Location = new System.Drawing.Point(581, 386);
+            this.ButtumAlterar.Location = new System.Drawing.Point(565, 415);
             this.ButtumAlterar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ButtumAlterar.Name = "ButtumAlterar";
             this.ButtumAlterar.Size = new System.Drawing.Size(143, 59);
             this.ButtumAlterar.TabIndex = 5;
             this.ButtumAlterar.Text = "Alterar";
             this.ButtumAlterar.UseVisualStyleBackColor = true;
+            this.ButtumAlterar.Click += new System.EventHandler(this.ButtumAlterar_Click);
             // 
             // Principal_Log
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 488);
             this.Controls.Add(this.ButtumAlterar);
@@ -110,7 +109,6 @@
             this.Controls.Add(this.labelalt);
             this.Controls.Add(this.buttonNovoEvent);
             this.Controls.Add(this.buttonlogout);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MinimizeBox = false;
             this.Name = "Principal_Log";
             this.ShowIcon = false;

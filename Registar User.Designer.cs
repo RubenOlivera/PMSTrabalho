@@ -37,9 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtbEmail = new System.Windows.Forms.TextBox();
-            this.txtbTelemovel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtbConfirmarPass
@@ -48,7 +46,7 @@
             this.txtbConfirmarPass.Location = new System.Drawing.Point(325, 176);
             this.txtbConfirmarPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbConfirmarPass.Name = "txtbConfirmarPass";
-            this.txtbConfirmarPass.Size = new System.Drawing.Size(393, 28);
+            this.txtbConfirmarPass.Size = new System.Drawing.Size(393, 21);
             this.txtbConfirmarPass.TabIndex = 15;
             // 
             // txtbPass
@@ -57,7 +55,7 @@
             this.txtbPass.Location = new System.Drawing.Point(325, 110);
             this.txtbPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbPass.Name = "txtbPass";
-            this.txtbPass.Size = new System.Drawing.Size(393, 28);
+            this.txtbPass.Size = new System.Drawing.Size(393, 21);
             this.txtbPass.TabIndex = 14;
             // 
             // txtbNome
@@ -66,7 +64,7 @@
             this.txtbNome.Location = new System.Drawing.Point(325, 42);
             this.txtbNome.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbNome.Name = "txtbNome";
-            this.txtbNome.Size = new System.Drawing.Size(393, 28);
+            this.txtbNome.Size = new System.Drawing.Size(393, 21);
             this.txtbNome.TabIndex = 13;
             // 
             // btnRegistar
@@ -99,7 +97,7 @@
             this.label3.Location = new System.Drawing.Point(78, 176);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 22);
+            this.label3.Size = new System.Drawing.Size(136, 15);
             this.label3.TabIndex = 10;
             this.label3.Text = "Confirmar Password";
             // 
@@ -110,7 +108,7 @@
             this.label2.Location = new System.Drawing.Point(78, 111);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 22);
+            this.label2.Size = new System.Drawing.Size(69, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "Password";
             // 
@@ -121,7 +119,7 @@
             this.label1.Location = new System.Drawing.Point(78, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 22);
+            this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "Nome";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -133,20 +131,9 @@
             this.label4.Location = new System.Drawing.Point(82, 242);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 22);
+            this.label4.Size = new System.Drawing.Size(44, 15);
             this.label4.TabIndex = 16;
             this.label4.Text = "Email";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(78, 303);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 22);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Telemóvel";
             // 
             // txtbEmail
             // 
@@ -154,26 +141,15 @@
             this.txtbEmail.Location = new System.Drawing.Point(325, 242);
             this.txtbEmail.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbEmail.Name = "txtbEmail";
-            this.txtbEmail.Size = new System.Drawing.Size(393, 28);
+            this.txtbEmail.Size = new System.Drawing.Size(393, 21);
             this.txtbEmail.TabIndex = 18;
-            // 
-            // txtbTelemovel
-            // 
-            this.txtbTelemovel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbTelemovel.Location = new System.Drawing.Point(325, 298);
-            this.txtbTelemovel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.txtbTelemovel.Name = "txtbTelemovel";
-            this.txtbTelemovel.Size = new System.Drawing.Size(393, 28);
-            this.txtbTelemovel.TabIndex = 19;
             // 
             // Registar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(753, 502);
-            this.Controls.Add(this.txtbTelemovel);
             this.Controls.Add(this.txtbEmail);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtbConfirmarPass);
             this.Controls.Add(this.txtbPass);
@@ -207,8 +183,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtbEmail;
-        private System.Windows.Forms.TextBox txtbTelemovel;
     }
 }
