@@ -19,12 +19,12 @@ namespace SeniorNet_Events
         {
             Dados a = Dados.Instance;
             a.Carregar();
-           
+            a.CarregarEvento();
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Principal());
         }
-        //StreamReader sr = new StreamReader("C:\\Users\\Ruben\\PMSTrabalho");
+ 
     }
 }
