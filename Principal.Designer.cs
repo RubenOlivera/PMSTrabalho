@@ -1,4 +1,4 @@
-namespace SeniorNet_Events
+ï»¿namespace SeniorNet_Events
 {
     partial class Principal
     {
@@ -81,7 +81,7 @@ namespace SeniorNet_Events
             this.buttonLoc.Name = "buttonLoc";
             this.buttonLoc.Size = new System.Drawing.Size(216, 97);
             this.buttonLoc.TabIndex = 3;
-            this.buttonLoc.Text = "Regiões";
+            this.buttonLoc.Text = "Regiï¿½es";
             this.buttonLoc.UseVisualStyleBackColor = true;
             this.buttonLoc.Click += new System.EventHandler(this.buttonLoc_Click);
             // 
@@ -139,7 +139,7 @@ namespace SeniorNet_Events
             this.MinimizeBox = false;
             this.Name = "Principal";
             this.ShowIcon = false;
-            this.Text = "GESTÃO EVENTOS";
+            this.Text = "GESTï¿½O EVENTOS";
             this.Load += new System.EventHandler(this.Principal_Load);
             this.ResumeLayout(false);
 
