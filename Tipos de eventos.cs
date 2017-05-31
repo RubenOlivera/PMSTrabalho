@@ -31,5 +31,15 @@ namespace SeniorNet_Events
         {
 
         }
+
+        private void _Tipos_de_eventos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonB_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

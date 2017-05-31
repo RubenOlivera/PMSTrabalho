@@ -1,3 +1,0 @@
-//Nome [tab] password[tab] email
-Ruben	qwerty	fyigdfyisd@gasg.com
-Sandra	qwerty	asfsafasf@esfs.com

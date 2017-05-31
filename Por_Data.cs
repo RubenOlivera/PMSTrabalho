@@ -26,5 +26,10 @@ namespace SeniorNet_Events
         {
 
         }
+
+        private void buttonV_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

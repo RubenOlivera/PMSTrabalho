@@ -44,8 +44,16 @@ namespace SeniorNet_Events
             {
                 Principal_Log ev = new Principal_Log();
                 ev.ShowDialog();
+                label3.Visible = false;
             }
+            else
+                label3.Visible = true;
             
           }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

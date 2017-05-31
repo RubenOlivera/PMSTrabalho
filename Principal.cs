@@ -54,7 +54,7 @@ namespace SeniorNet_Events
 
         private void buttonData_Click(object sender, EventArgs e)
         {
-            Por_cidades pc = new Por_cidades();
+            Por_Data pc = new Por_Data();
             pc.Show();
            
 

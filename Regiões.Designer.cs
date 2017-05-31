@@ -41,7 +41,7 @@
             this.lblRegioes.Location = new System.Drawing.Point(24, 31);
             this.lblRegioes.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblRegioes.Name = "lblRegioes";
-            this.lblRegioes.Size = new System.Drawing.Size(0, 22);
+            this.lblRegioes.Size = new System.Drawing.Size(0, 15);
             this.lblRegioes.TabIndex = 0;
             this.lblRegioes.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -90,10 +90,11 @@
             this.buttonV.TabIndex = 4;
             this.buttonV.Text = "Voltar";
             this.buttonV.UseVisualStyleBackColor = true;
+            this.buttonV.Click += new System.EventHandler(this.buttonV_Click);
             // 
             // Regioes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 442);
             this.Controls.Add(this.buttonV);
