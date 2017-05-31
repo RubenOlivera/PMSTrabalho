@@ -19,6 +19,7 @@ namespace SeniorNet_Events
         {
             Dados a = Dados.Instance;
             a.Carregar();
+           
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

@@ -9,6 +9,7 @@ namespace SeniorNet_Events.Modelos
     class Eventos
     {
         public string Titulo { get; set; }
+        public int ID { get; set; }
         public string localidade { get; set; }
         public string regiao { get; set; }
         public DateTime Data { get; set; }
