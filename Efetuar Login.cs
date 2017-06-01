@@ -42,8 +42,10 @@ namespace SeniorNet_Events
             if (u != null)
             {
                 Principal_Log ev = new Principal_Log();
+                this.Close();
                 ev.ShowDialog();
                 label3.Visible = false;
+                this.Close();
             }
             else
                 label3.Visible = true;

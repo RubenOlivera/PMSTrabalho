@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SeniorNet_Events.Logica;
+using SeniorNet_Events.Modelos;
 
 namespace SeniorNet_Events
 {
@@ -31,6 +33,18 @@ namespace SeniorNet_Events
         private void buttonlogout_Click(object sender, EventArgs e)
         {
             this.Close();
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+            ListBox listb = new ListBox();
+           
+        }
+
+        private void Principal_Log_Load(object sender, EventArgs e)
+        {
 
         }
     }

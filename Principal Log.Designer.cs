@@ -85,6 +85,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(641, 121);
             this.listBox1.TabIndex = 4;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ButtumAlterar
             // 
@@ -113,6 +114,7 @@
             this.Name = "Principal_Log";
             this.ShowIcon = false;
             this.Text = "GESTÃO EVENTOS";
+            this.Load += new System.EventHandler(this.Principal_Log_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
