@@ -46,6 +46,7 @@
             this.txtbConfirmarPass.Location = new System.Drawing.Point(325, 176);
             this.txtbConfirmarPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbConfirmarPass.Name = "txtbConfirmarPass";
+            this.txtbConfirmarPass.PasswordChar = '*';
             this.txtbConfirmarPass.Size = new System.Drawing.Size(393, 21);
             this.txtbConfirmarPass.TabIndex = 15;
             // 
@@ -55,6 +56,7 @@
             this.txtbPass.Location = new System.Drawing.Point(325, 110);
             this.txtbPass.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtbPass.Name = "txtbPass";
+            this.txtbPass.PasswordChar = '*';
             this.txtbPass.Size = new System.Drawing.Size(393, 21);
             this.txtbPass.TabIndex = 14;
             // 

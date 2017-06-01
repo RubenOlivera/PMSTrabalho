@@ -35,13 +35,18 @@ namespace SeniorNet_Events
             
             if (txtbPass.Text == txtbConfirmarPass.Text)
             {
-                Utilizador u = Gestao_Utilizadores.Instance.Registarutil(txtbNome.Text, txtbPass.Text, txtbEmail.Text);
-                if (u != null)
-                {
-                    Principal_Log ev = new Principal_Log();
-                    ev.ShowDialog();
+                try {
+                    Utilizador u = Gestao_Utilizadores.Instance.Registarutil(txtbNome.Text, txtbPass.Text, txtbEmail.Text);
+                    if (u != null)
+                    {
+                        Principal_Log ev = new Principal_Log();
+                        ev.ShowDialog();
+                    }
                 }
-                
+                catch(Exception ex)
+                {
+                    MessageBox.Show("Não foi possivel fazer log in. Erro{0}",ex.Message);
+                }
                 
             }
         }

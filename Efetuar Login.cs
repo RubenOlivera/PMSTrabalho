@@ -33,8 +33,7 @@ namespace SeniorNet_Events
         {
 
             this.Close();
-            Principal ev = new Principal();
-            ev.ShowDialog();
+           
         }
 
           private void btnLogin_Click(object sender, EventArgs e)

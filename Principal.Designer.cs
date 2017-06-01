@@ -81,7 +81,7 @@
             this.buttonLoc.Name = "buttonLoc";
             this.buttonLoc.Size = new System.Drawing.Size(216, 97);
             this.buttonLoc.TabIndex = 3;
-            this.buttonLoc.Text = "Regi�es";
+            this.buttonLoc.Text = "Regiões";
             this.buttonLoc.UseVisualStyleBackColor = true;
             this.buttonLoc.Click += new System.EventHandler(this.buttonLoc_Click);
             // 
@@ -139,7 +139,7 @@
             this.MinimizeBox = false;
             this.Name = "Principal";
             this.ShowIcon = false;
-            this.Text = "GEST�O EVENTOS";
+            this.Text = "GESTÃO EVENTOS";
             this.Load += new System.EventHandler(this.Principal_Load);
             this.ResumeLayout(false);
 
