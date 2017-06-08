@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SeniorNet_Events.Modelos;
+using SeniorNet_Events.Logica;
 
 
 namespace SeniorNet_Events.Dados_
@@ -104,7 +105,7 @@ namespace SeniorNet_Events.Dados_
                 string[] campos = sr.ReadLine().Split('\t');
                 if (campos.Length == 9)
                 {
-                    even.ID = Convert.ToInt32(campos[0]);
+                    
                     even.Titulo = campos[1];
                     even.Data = Convert.ToDateTime(campos[2]);
                     even.Regiao = campos[3];
@@ -121,11 +122,33 @@ namespace SeniorNet_Events.Dados_
             
            
         }
-        public Eventos listareven (List<Eventos >evento)
+        public Eventos listareven (string Titulo
+        
+        , string Localidade
+        , string Regiao
+        , DateTime Data
+        , double Preco
+        , string Artista
+        , DateTime HoraInicio
+        , DateTime HoraFinal)
         {
-
-
-            return null;
+            StreamWriter sw = new StreamWriter("Eventos.txt", true);
+            Eventos even = new Eventos();
+            even.Titulo = Titulo;
+            
+            even.Localidade = Localidade;
+            even.Regiao = Regiao;
+            even.Data = Data;
+            even.Preco = Preco;
+            even.Artista = Artista;
+            even.HoraInicio = HoraInicio;
+            even.HoraFinal = HoraFinal;
+            
+           sw.WriteLine(even.Titulo + "\t" + even.Data  + "\t"+ even.Regiao  +"\t" + even.Localidade+
+               "\t" + even.Preco + "\t" + even.HoraInicio + "\t" + even.HoraFinal + "\t" + even.Artista  );
+            evento.Add(even);
+            sw.Close();
+            return even;
         }
     }
 }

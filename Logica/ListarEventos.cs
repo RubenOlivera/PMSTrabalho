@@ -11,13 +11,21 @@ namespace SeniorNet_Events
 
 
 
-public class ListarEventos 
-{
-        //public List <Eventos> even (List<Eventos> ev)
-        //{
-        //    return Dados.Instance.CarregarEvento(ev);
-            
-        //}
+class ListarEventos
+    {
+     
+        public Eventos RegistarEvent(string Titulo , string Localidade, string Regiao, DateTime Data, double Preco, string Artista, DateTime HoraInicio, DateTime HoraFinal)
+        {
+            return Dados.Instance.listareven(Titulo
+        
+        , Localidade
+        , Regiao
+        , Data
+        , Preco
+        , Artista
+        , HoraInicio
+        , HoraFinal);
+                } 
 
         private static ListarEventos instance;
 
