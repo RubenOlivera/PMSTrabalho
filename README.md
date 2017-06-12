@@ -16,5 +16,5 @@ O projeto irá ser efetuada em três camadas: Camada de Dados, Camada da Logica 
  Alem destas três camadas iremos ter também os modelos que serão as classes que contem os atributos dos objetos. Temos duas classes: Utilizador.cs e Eventos.cs.
  
  A camada gráfica interga com a camada lógica mas não com a camada de dados. Desta forma existe um nível de abstração entre as camadas, o que torna possível alterar ou atualizar uma camada sem ter que interferir com a outra camada, a camada de interface (GUI). A camada de interface utilizada foi a Windows Forms.
- A camada de acesso de dados é apenas especifica para aceder a dados, pelo que, como boa prática não foi colocado qualquer validação ou outro codigo que não estivesse relacionado com o acesso a dados, nesta classe.
+
 
